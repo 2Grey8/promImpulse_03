@@ -1,0 +1,85 @@
+.map{
+  width: 192rem;
+
+  &__inner{
+    display: block;
+    width: 192rem;
+    margin: 0 auto;
+    position: relative;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__img{
+    display: block;
+    width: 1920px;
+    height: 500px;
+    position: relative;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__polygon{
+    display: block;
+    width: 63px;
+    height: 81.63px;
+    position: absolute;
+    top: 19rem;
+    left: 101rem;
+
+    @include respond(phone){
+      display: block;
+      width: 63px;
+      height: 81.63px;
+      margin: 0 auto;
+      top: 20rem;
+      left: 20rem;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 63px;
+      height: 81.63px;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 63px;
+      height: 81.63px;
+      margin: 0 auto;
+      top: 17rem;
+      left: 60rem;
+    }
+  }
+}

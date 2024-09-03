@@ -1,0 +1,196 @@
+.form{
+  display: block;
+  width: 192rem;
+  background: #161822;
+
+  @include respond(phone){
+    width: 60rem;
+    margin: 0 auto;
+  }
+
+  @include respond(port){
+    width: 90rem;
+    margin: 0 auto;
+  }
+
+  @include respond(land){
+    width: 120rem;
+    margin: 0 auto;
+  }
+
+  &__inner{
+    width: 138rem;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+    display: flex;
+    justify-content: space-around;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__text{
+    display: block;
+    width: 40rem;
+
+    @include respond(phone){
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+
+    text-align: left;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 180%;
+    color: #FFFFFF;
+  }
+
+  &__form{
+    display: flex;
+    width: 913px;
+    position: relative;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      justify-content: center;
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__box{
+    margin-right: 1rem;
+  }
+
+  input{
+    display: block;
+    width: 33rem;
+    height: 6rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    background: #161822;
+    border: 1px solid #393E52;
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      width: 80rem;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  textarea{
+    display: block;
+    height: 20rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    background: #161822;
+    border: 1px solid #393E52;
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      width: 80rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  &__btn{
+    display: block;
+    width: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 1.9rem;
+
+    @include respond(phone){
+      position: absolute;
+      top: 40rem;
+      left: 17rem;
+    }
+
+    @include respond(port){
+      position: absolute;
+      top: 43rem;
+      left: 30rem;
+    }
+
+    @include respond(land){
+      position: absolute;
+      left: 89.4rem;
+    }
+
+    text-decoration: none;
+    background: #118BDD;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 101%;
+    left: 72.5%;
+  }
+}
